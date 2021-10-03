@@ -1,0 +1,211 @@
+.active{
+   color: #000000 !important;
+}
+ .nav-link:hover{
+    color: #000000 !important;
+    /* transition: 1s; */
+ }
+.navbar-toggler{
+    background-color: #ffffff !important;
+    /* outline: 0 !important; */
+    box-shadow: none !important;
+}
+#Home h1{
+    font-size: 3rem;
+}
+#Home .btnstarted{
+    background-color: #ffffff;
+    border-radius: 50px;
+    /* border: solid 2px #3F69AA; */
+    width: 200px;
+    padding: 15px;
+    box-shadow: none !important;
+    border: none !important;
+    color: #3F69AA;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+#Home .btnstarted:hover{
+    background-color: #3F69AA;
+    border-radius: 50px;
+    /* border: solid 2px #3F69AA; */
+    width: 200px;
+    padding: 15px;
+    box-shadow: none !important;
+    border: none !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Home p{
+    font-size: 18px;
+}
+#Home .homebg{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    /* background-color: rgba(63, 105, 170, 0.9) !important; */
+}
+.subtitle{
+    color: #3F69AA;
+    position: relative;
+  }
+  
+.subtitle::after {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    width: 5vw;
+    height: 15%;
+    background-color:#3F69AA !important;
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+  }
+.btnreadmore{
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 50px;
+    font-size: 20px;
+    border: solid 2px #3F69AA;
+    color: #3F69AA;
+    background-color: #fff;
+    transition: 1s;
+}
+.btnreadmore:hover{
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 50px;
+    font-size: 20px;
+    border: solid 2px #3F69AA;
+    color: #fff;
+    background-color: #3F69AA;
+}
+#About .about-item1,
+#About .about-item3{
+    color: #ffffff;
+    background: #3F69AA;
+}
+#About .about-item2{
+    color: #ffffff;
+    background: #222222;
+}
+#About i{
+    font-size: 60px;
+}
+#Services .servicesitem{
+    width: 100%;
+    height: 75px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px 0 0 50px;
+    background-color: rgba(0,0,0,0.1);
+}
+#Services .servicesicon{
+    width: 75px;
+    height: 75px;
+    /* display: inline-block; */
+    border-radius: 50%;
+    border: solid 3px #3F69AA ;
+    text-align: center;
+    
+}
+#Services .servicesicon i{
+    font-size: 40px;
+    color: #3F69AA;
+    /* position: absolute; */
+}
+#Services h4{
+    /* position: absolute; */
+    color: #3F69AA;
+    padding-left: 20px;
+}
+#Services .servicescontent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background: rgba(63, 105, 170, .92);
+    color: #ffffff;
+}
+#Services .servicesitem:hover .servicescontent{
+    transition: 3s;
+    left: 0;
+}
+#Counter .countericon{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: solid 3px #ffffff ;
+    text-align: center;
+    display: inline-block;
+}
+#Counter .countericon i{
+    font-size: 40px;
+    color: #ffffff;
+}
+#Counter #number{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: bold;
+}
+#Counter h5{
+    color: #ffffff;
+}
+#Testimonials .testimg img{
+    width: 150px;
+    border: solid 4px #698cc0;
+    border-radius: 150px 0 0 150px;
+}
+#Testimonials .testimg{
+    width: 150px;
+    position: relative;
+}
+#Contact .form-control{
+    border: solid 2px #3F69AA;
+    border-radius: 50px 50px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+#Contact .contactform .name{
+    padding-right: 15px !important;
+}
+#Contact .form-control1{
+    height: 150px !important;
+    border-radius: 20px;
+    border: solid 2px #3F69AA;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+#Contact .btnsend{
+    border: solid 2px #3F69AA;
+    width: 150px;
+    border-radius: 50px;
+    color: #698cc0;
+    font-size: 18px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+#Contact .btnsend:hover{
+    border: solid 2px #3F69AA;
+    width: 150px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #3F69aa;
+}
+#Contact i{
+    font-size: 20px;
+    color: #3F69AA;
+}
+#Contact .social i{
+    font-size: 30px;
+}
